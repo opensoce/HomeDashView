@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HomeDashView">
+        <attr name="shaderBColor" format="color"/>
+        <attr name="shaderCColor" format="color"/>
+        <attr name="shaderDColor" format="color"/>
+        <attr name="lengthLineTick" format="dimension"/>
+        <attr name="distanceTickLine" format="dimension"/>
+        <attr name="dashTickStartAngle" format="integer"/>
+        <attr name="dashTickSweepAngle" format="integer"/>
+        <attr name="dashTickColor" format="color"/>
+        <attr name="dashTickWidth" format="dimension"/>
+        <attr name="dashTickStrokeColor" format="color"/>
+        <attr name="dashTickStrokeWidth" format="dimension"/>
+        <attr name="dashLineColor" format="color"/>
+        <attr name="dashLineWidth" format="dimension"/>
+        <attr name="dashLineStrokeColor" format="color"/>
+        <attr name="dashLineStrokeWidth" format="dimension"/>
+        <attr name="dashPointColor" format="color"/>
+        <attr name="dashPointRadius" format="dimension"/>
+        <attr name="bottomBodyColor" format="color"/>
+        <attr name="bottomBodyWidth" format="dimension"/>
+        <attr name="bottomLineColor" format="color"/>
+        <attr name="bottomLineWidth" format="dimension"/>
+        <attr name="bottomLineStrokeColor" format="color"/>
+        <attr name="bottomLineStrokeWidth" format="dimension"/>
+        <attr name="bottomPointColor" format="color"/>
+        <attr name="bottomPointRadius" format="dimension"/>
+        <!--扇形半径--><!--
+        <attr name="startAngle" format="integer"/> &lt;!&ndash; 起始角度&ndash;&gt;
+        <attr name="sweepAngle" format="integer"/>  &lt;!&ndash;绘制角度&ndash;&gt;
+        <attr name="bigSliceCount" format="integer"/> &lt;!&ndash; 长刻度条数&ndash;&gt;
+        <attr name="sliceCountInOneBigSlice" format="integer"/> &lt;!&ndash; 长刻度条数&ndash;&gt;
+        <attr name="arcColor" format="color"/> &lt;!&ndash;弧度颜色&ndash;&gt;
+        <attr name="measureTextSize" format="dimension"/> &lt;!&ndash;刻度字体大小&ndash;&gt;
+        <attr name="bigSliceRadius" format="dimension"/> &lt;!&ndash;大刻度半径&ndash;&gt;
+        <attr name="smallSliceRadius" format="dimension"/> &lt;!&ndash;小刻度半径&ndash;&gt;
+        <attr name="textColor" format="color"/> &lt;!&ndash;字体颜色&ndash;&gt;
+        <attr name="textColorOfValue" format="color"/> &lt;!&ndash;读数颜色&ndash;&gt;
+        <attr name="textSizeOfValue" format="dimension"/> &lt;!&ndash;读数大小&ndash;&gt;
+        <attr name="headerTitle" format="string"/> &lt;!&ndash;表头&ndash;&gt;
+        <attr name="headerTextSize" format="string"/> &lt;!&ndash;表头字体大小&ndash;&gt;
+        <attr name="headerRadius" format="dimension"/> &lt;!&ndash;表头半径&ndash;&gt;
+        <attr name="pointerRadius" format="dimension"/> &lt;!&ndash;指针半径&ndash;&gt;
+        <attr name="pointerColor" format="color"/> &lt;!&ndash;指针颜色&ndash;&gt;
+        <attr name="centerCircleRadius" format="dimension"/> &lt;!&ndash;中心圆盘半径&ndash;&gt;
+        <attr name="centerCircleColor" format="color"/> &lt;!&ndash;中心圆盘背景色&ndash;&gt;
+        <attr name="circleRadius" format="dimension"/> &lt;!&ndash;中心圆半径&ndash;&gt;
+        <attr name="shieldRadius" format="dimension"/> &lt;!&ndash;遮蔽半径&ndash;&gt;
+        <attr name="minValue" format="integer"/> &lt;!&ndash;最小值&ndash;&gt;
+        <attr name="maxValue" format="integer"/> &lt;!&ndash;最大值&ndash;&gt;
+        <attr name="realTimeValue" format="float"/> &lt;!&ndash;实时值&ndash;&gt;
+        <attr name="stripeWidth" format="dimension"/> &lt;!&ndash;色带宽度&ndash;&gt;
+        <attr name="stripeMode" > &lt;!&ndash;色条显示位置&ndash;&gt;
+            <enum name="normal" value="0"/>
+            <enum name="inner" value="1"/>
+            <enum name="outer" value="2"/>
+        </attr>
+        <attr name="textStyle" > &lt;!&ndash;色条显示位置&ndash;&gt;
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+        <attr name="bgColor" format="color"/> 背景颜色-->
+    </declare-styleable>
+
+</resources>
